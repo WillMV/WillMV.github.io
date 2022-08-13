@@ -6,24 +6,52 @@
 
 
 .secao-1 {
-	border-radius: 1%;
+	border-radius: 5%;
 	align-items: center;
 	text-align: center;
 	background-color: rgba(95, 95, 95, 0.055);
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 	margin-top: 25px;
-	
+	margin-bottom: 50px;
+	box-shadow: 19px 12px 2em rgb(153, 153, 153)
 }
 
+.secao-1::after{
+	content: "";
+	
+}
 .secao-1:hover{
-	transition:none text ;
-	border-radius: 25%;
-	width: 95%;
+	border-radius: 5%;
+	width: 65%;
 	box-shadow: 100px;
 	/* font-size: larger;
 	line-height: 120%; */
-	box-shadow: 7px -12px rgb(153, 153, 153)
+	box-shadow: 7px -12px 2em rgb(153, 153, 153)
+}
+
+.secao-2{
+	font-family: ubuntu,sans-serif;
+	line-height: 25px;
+	border-radius: 5%;
+	align-items: center;
+	text-align: center;
+	background-color: rgba(95, 95, 95, 0.055);
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	box-shadow: 19px 12px 2em rgb(153, 153, 153)
+	
+}
+
+.secao-2:hover{
+	border-radius: 5%;
+	width: 65%;
+	box-shadow: 100px;
+	/* font-size: larger;
+	line-height: 120%; */
+	box-shadow: 7px -12px 2em rgb(153, 153, 153)
 }
 
 
