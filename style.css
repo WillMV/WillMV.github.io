@@ -12,20 +12,20 @@
 	background-color: rgba(95, 95, 95, 0.055);
 	width: 80%;
 	margin: 0 auto;
+	margin-top: 25px;
 	
 }
 
 .secao-1:hover{
-	border-radius: 5%;
+	transition:none text ;
+	border-radius: 25%;
 	width: 95%;
-	box-shadow:5%;
-	
+	box-shadow: 100px;
+	/* font-size: larger;
+	line-height: 120%; */
+	box-shadow: 7px -12px rgb(153, 153, 153)
 }
 
-#hr-s1{
-	width: 93%;
-	color:rgba(95, 95, 95, 0.05);
-}
 
 #perfilimg {
 	/* display: block;
