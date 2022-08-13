@@ -1,12 +1,13 @@
 * {
 	box-sizing: border-box;
-	transition: 0.5s all;
+	/* transition: 0.5s all; */
 }
 
 
 
 .secao-1 {
-	border-radius: 5%;
+	transition: 0.5s all;
+	border-radius: 5px;
 	align-items: center;
 	text-align: center;
 	background-color: rgba(95, 95, 95, 0.055);
@@ -14,7 +15,8 @@
 	margin: 0 auto;
 	margin-top: 25px;
 	margin-bottom: 50px;
-	box-shadow: 19px 12px 2em rgb(153, 153, 153)
+	padding-bottom: 1vw;
+	box-shadow: 1px 1px 0.5em rgb(153, 153, 153)
 }
 
 .secao-1::after{
@@ -22,18 +24,19 @@
 	
 }
 .secao-1:hover{
-	border-radius: 5%;
-	width: 65%;
+	transition: 0.5s all;
+	/* border-radius: 5%; */
+	/* width: 65%; */
 	box-shadow: 100px;
 	/* font-size: larger;
 	line-height: 120%; */
-	box-shadow: 7px -12px 2em rgb(153, 153, 153)
+	box-shadow: 1px 1px 2em rgb(153, 153, 153)
 }
 
 .secao-2{
 	font-family: ubuntu,sans-serif;
 	line-height: 25px;
-	border-radius: 5%;
+	border-radius: 5px;
 	align-items: center;
 	text-align: center;
 	background-color: rgba(95, 95, 95, 0.055);
@@ -41,17 +44,17 @@
 	margin: 0 auto;
 	margin-top: 25px;
 	margin-bottom: 50px;
-	box-shadow: 19px 12px 2em rgb(153, 153, 153)
+	box-shadow: 1px 1px 0.5em rgb(153, 153, 153)
 	
 }
 
 .secao-2:hover{
-	border-radius: 5%;
-	width: 65%;
+	/* border-radius: 5% 25% 25% 5%; */
+	/* width: 65%; */
 	box-shadow: 100px;
 	/* font-size: larger;
 	line-height: 120%; */
-	box-shadow: 7px -12px 2em rgb(153, 153, 153)
+	box-shadow: 1px 1px 1.5em rgb(153, 153, 153)
 }
 
 
