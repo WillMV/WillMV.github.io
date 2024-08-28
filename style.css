@@ -1,6 +1,5 @@
 html {
 	scroll-behavior: smooth;
-
 }
 
 body {
@@ -10,7 +9,8 @@ body {
 	margin: 0;
 }
 
-section {
+main,
+footer {
 	margin-left: 300px;
 }
 
@@ -21,16 +21,35 @@ header {
 	top: 0;
 }
 
-a {
-	color: inherit
-}
+
 
 a:hover span:first-child {
 	color: cadetblue;
 	transition: color 0.5s ease;
+
 }
 
 .profile-img {
 	margin: 15px;
 	border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%)
+}
+
+.navigator-items {
+	color: aliceblue;
+}
+
+.navigator-items:hover {
+	color: cadetblue;
+	transition: color 0.5s ease;
+
+}
+
+@media (max-width:600px) {
+	.show-header {
+		left: -100%;
+	}
+
+	.restore-position {
+		margin-left: 0%;
+	}
 }
